@@ -1,12 +1,12 @@
 import React from "react";
-import Logo from './src/assets/icons/TcLogo.png';
+import logo from './src/assets/icons/Tata-logo.svg';
 
 export const Login = () =>{
     return(
         <div>
             <img
-                src={Logo}
-                alt="LogoTCS"
+                src={logo}
+                alt="Logo TCS"
             />
             <form>
                 <input type="text" name="login" placeholder="Informe seu ID"/>
