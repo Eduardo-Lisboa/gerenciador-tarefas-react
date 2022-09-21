@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/icons/Tata-Logo.svg";
+import Logo from './src/assets/icons/TcLogo.png';
 
 export const Login = () =>{
     return(
