@@ -1,0 +1,35 @@
+@import "~bootstrap/scss/bootstrap";
+
+@font-face {
+    font-family: 'bieannele regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/fonts/bieanle/Biennale\ Regular\ It.otf') format('opentype');
+}
+
+html{
+    height: 100%;
+    font-family: 'bieannele regular';
+}
+
+body{
+    height: 100%;
+    font-family: 'bieannele regular';
+}
+
+#root{
+
+    height: 100%;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    -webkit-box-direction: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px;
+
+}
+    
+@import url("./config.scss");
+@import url('./login.scss');
